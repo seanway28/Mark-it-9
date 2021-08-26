@@ -129,8 +129,9 @@ function writeToFile(fileName, data) {
 
 };
 
-function init() {
-    inquirer.prompt(questions).then(function(data) {
+//function init() {
+{    i
+    nquirer.prompt(questions).then(function(data) {
         let fileName ="generateREADMEFile.md"
         if(data.contributing === true) {
             inquirer.prompt([
