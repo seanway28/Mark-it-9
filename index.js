@@ -2,6 +2,7 @@
 const inquirer = require ('inquirer');
 const fs = require ('fs');
 const createMD = require ('./utils/generateMarkdown');
+const init = require('connect-session-sequelize');
 
 // Create an array of questions for the user input
 const questions = () => {
@@ -89,3 +90,5 @@ questions()
     .catch(err => {
         console.log(err);
     });
+    //function call to initialize application
+    init();
