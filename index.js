@@ -1,8 +1,8 @@
 // Include packages needed for this application
 const inquirer = require ('inquirer');
 const fs = require ('fs');
-const createMD = require ('./utils/generateMarkdown');
-const init = require('connect-session-sequelize');
+const generateMarkdown = require ('./utils/generateMarkdown');
+//const init = require('connect-session-sequelize');
 
 // Create an array of questions for the user input
 const questions = () => {
@@ -129,9 +129,9 @@ function writeToFile(fileName, data) {
 
 };
 
-//function init() {
-{    
-    inquirer.prompt(questions).then(function(data) {
+function init() {
+    
+    questions().then(function(data) {
         let fileName ="generateREADMEFile.md"
         if(data.contributing === true) {
             inquirer.prompt([
@@ -153,21 +153,21 @@ function writeToFile(fileName, data) {
 };
 
 // Function call to initialize application
+
 init();
       
 
 
 // Create a function to initialize application
-// questions()
-//     .then(readMeData => {
-//         return createMD(readMeData);
-//     })
-//     .then(writeToFile)
-//     .then(writeFileResponse => {
-//         console.log(writeFileResponse);
-//     })
-//     .catch(err => {
-//         console.log(err);
-//     });
-//     // Function call to initialize application
-//     init();
+//  questions()
+//      .then(readMeData => {
+//                   return createMD(readMeData);
+//      })
+//      .then(writeToFile)
+//      .then(writeFileResponse => {
+//          console.log(writeFileResponse);
+//      })
+//      .catch(err => {
+//          console.log(err);
+//      });
+     // Function call to initialize application
