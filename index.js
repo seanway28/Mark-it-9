@@ -90,5 +90,5 @@ questions()
     .catch(err => {
         console.log(err);
     });
-    //function call to initialize application
+    // Function call to initialize application
     init();
