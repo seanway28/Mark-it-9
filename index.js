@@ -130,8 +130,8 @@ function writeToFile(fileName, data) {
 };
 
 //function init() {
-{    i
-    nquirer.prompt(questions).then(function(data) {
+{    
+    inquirer.prompt(questions).then(function(data) {
         let fileName ="generateREADMEFile.md"
         if(data.contributing === true) {
             inquirer.prompt([
