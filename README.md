@@ -7,11 +7,23 @@ When creating an open source project on GitHub, it’s important to have a high-
 
 You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Review the Guide to a Professional README as a reminder of everything that a high-quality, professional README should contain.
+Here's where to begin!
+
+<b>Installation<b>
+
+Download Node.js
+Clone the repo into your own repo
+Navigate to the repo directory in your terminal. Type 'npm install inquirer' to install the inquirer node package manager.
 
 The application will be invoked by using the following command:
 
 node index.js
+
+Here's how to begin!
+
+<b>Usage<b>
+    
+To start follow the install instructions. Once you have completed the install navigate to the directory with the index.js file in your temrinal. In the terminal type 'node index'. Follow and answer the prompts. When you are done your README.md file should be complete. The last thing you need to do is download any images you want in the read me to your image folder. Once that is done update your file paths and alt texts in the README.md file. For that all you should need to do is enter the file name where indicated and enter your alt tex where indicated.
 
 Acceptance Criteria
 GIVEN a command-line application that accepts user input
@@ -31,23 +43,3 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 
-Getting Started
-
-Here are some guidelines to help you get started:
-
-Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
-
-Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
-
-Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-Review
-You are required to submit the following for review:
-
-A walkthrough video demonstrating the functionality of the application.
-
-A sample README.md file for a project repository generated using your application.
-
-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
