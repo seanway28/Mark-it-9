@@ -25,6 +25,8 @@ Here's how to begin!
     
 To start follow the install instructions. Once you have completed the install navigate to the directory with the index.js file in your temrinal. In the terminal type 'node index'. Follow and answer the prompts. When you are done your README.md file should be complete. The last thing you need to do is download any images you want in the read me to your image folder. Once that is done update your file paths and alt texts in the README.md file. For that all you should need to do is enter the file name where indicated and enter your alt tex where indicated.
 
+    ***
+    
 Acceptance Criteria
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
