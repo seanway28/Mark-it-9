@@ -1,4 +1,4 @@
-# Mark-it-9-Dude
+# A Node.js Project   -   Mark-it-9-Dude
 Node.js - A README Generator - Challenge 9
 ![image](https://user-images.githubusercontent.com/81600120/130997815-ca9da2b7-4f7c-414b-8d9f-5fb5926d00ce.png)
 
@@ -44,4 +44,5 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
+![image](https://user-images.githubusercontent.com/81600120/146122060-a1ba2f92-4e5f-4802-8a93-c2e6f0117d5e.png)
 
